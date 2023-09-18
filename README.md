@@ -5,4 +5,4 @@ There will be more features added, so that users can further personalize and enh
 
 Here is a GIF that demonstrates how it works:
 
-![](https://github.com/smatin28/exercise_tracker/exercise_demo_v1.gif)
+![](exercise_demo_v1.gif)
