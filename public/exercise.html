@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"/>
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css" />
+    <title>Edit Exercise</title>
+  </head>
+  <body class="site-container">
+    <div class="container">
+      <form class="edit-exercise-form">
+        <h4>Edit Exercise</h4>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="exercise-edit-name" />
+        </div>
+        <div class="form-control">
+          <label for="name">Sets</label>
+          <input type="text" name="name" class="exercise-edit-sets" />
+        </div>
+        <div class="form-control">
+          <label for="name">Reps per Set</label>
+          <input type="text" name="name" class="exercise-edit-reps" />
+        </div>
+        <div class="form-control">
+          <label for="name">Weight</label>
+          <input type="text" name="name" class="exercise-edit-weight" />
+        </div>
+        <div class="form-control">
+          <label for="type">Category of Exercise</label>
+          <select id="type" class="exercise-edit-type">
+            <option value="Push">Push</option>
+            <option value="Pull">Pull</option>
+            <option value="Legs">Legs</option>
+          </select>
+        </div>
+        <div class="form-control">
+            <button type="submit" class="edit-button">Save changes</button>
+        </div>
+      </form>
+      <a href="index.html" class="back-link">See all exercises</a>
+    </div>
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" 
+      integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" 
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./edit-exercise.js"></script>
+  </body>
+</html>

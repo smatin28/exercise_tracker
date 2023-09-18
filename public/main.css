@@ -1,0 +1,66 @@
+.site-container{
+    background-color: aliceblue;
+    font-family: garamond;
+    text-align: center;
+}
+
+
+  label {
+    display: inline-block;
+    font-size: var(--smallText);
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+  }
+  
+.form-control {
+    display: inline-block;
+}
+.exercise-form,
+.edit-exercise-form {
+  width: 30vw;
+  max-width: var(--fixed-width);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.exercise-form h4 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.edit-exercise-form h4 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+.exercise-form .form-alert {
+  margin-top: 1rem;
+}
+.submit-button,
+.edit-button {
+  width: 35%;
+  margin-top: 1rem;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.exercises-container {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.exercise-column {
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 2%;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
